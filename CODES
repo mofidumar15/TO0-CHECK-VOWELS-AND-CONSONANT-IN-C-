@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+cout<<"enter a letter here to check whether it is a vowel or not: "<<endl;
+char a;
+cin>>a;
+  
+if (a ==  'a'&& 'e'  && 'i' && 'o' && 'u') {
+
+  cout<< "IT'S A LOWERCASE VOWEL";
+
+}
+  else {
+    if(a=='A'&&'E'  &&'I'  && 'O'  &&'U'){
+      cout<<"IT'S A UPPERCASE VOWEL";
+    }
+      else{
+      cout<<"IT'S A CONSONANT"<<endl;
+    }
+    
+  }
+    
+return 0;
+  
+}
